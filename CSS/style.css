@@ -1,0 +1,175 @@
+html{   
+    width: 100%;   
+    height: 100%;   
+    overflow: hidden;    
+}  
+ 
+body{   
+    width: 100%;   
+    height: 100%;  
+	background-color:#778899;
+    font-family: "Comic Sans MS", cursive, sans-serif;     
+} 
+  
+td{
+	font-size: 20px; 
+	color:#fff;
+}
+ 
+input{   
+    width: 278px;   
+    height: 18px;   
+    margin-bottom: 10px;   
+    outline: none;   
+    padding: 10px;   
+    font-size: 18px; 
+	font-weight:bold;	
+    color: #000;     
+    border-top: 1px solid #312E3D;   
+    border-left: 1px solid #312E3D;   
+    border-right: 1px solid #312E3D;   
+    border-bottom: 1px solid #56536A;   
+    border-radius: 4px;   
+    background-color: #DDDDDD;   
+} 
+
+textarea{
+    font-size: 15px; 
+	font-weight:bold;	
+    color: #000;     
+    border-top: 1px solid #312E3D;   
+    border-left: 1px solid #312E3D;   
+    border-right: 1px solid #312E3D;   
+    border-bottom: 1px solid #56536A;   
+    border-radius: 4px;   
+    background-color: #DDDDDD; 
+}
+
+h1{   
+    color: #fff;    
+    letter-spacing: 1px;   
+    text-align: right;   
+} 
+
+a{
+	text-decoration:none;
+	color: #fff;     
+    letter-spacing: 1px;   
+    text-align: center;
+	margin: 35px;
+	
+}  
+a:hover{
+	color: #ffff00; 
+}
+.content {
+        color: #ffffff;
+        font-size: 40px;
+ }
+.bg {      
+	width: 120%;   
+    height: 120%; 
+	margin: -25px;
+    background: url('gangwan.jpg');
+	background-size: cover;	
+	-webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+.content-front {
+        position:absolute;
+        left: 10px;
+        right: 10px;
+        height:600px;
+        line-height: 600px;
+        text-align: center;
+        }
+#login{   
+    position: absolute;   
+    top: 50%;   
+    left:50%;
+    margin: -150px 0 0 -150px; 
+    width: 350px;   
+    height: 350px;   
+}  
+
+#login h1{   
+    color: #fff;   
+    letter-spacing: 1px;   
+    text-align: left;   
+} 
+
+#register{   
+    position: absolute;   
+    top: 50%;   
+    left:45%;
+    margin: -150px 0 0 -150px; 
+    width: 300px;   
+    height: 300px;   
+} 
+ 
+#suc_re{   
+    position: absolute;   
+    top: 50%;   
+    left:50%;
+    margin: -150px 0 0 -250px; 
+    width: 500px;   
+    height: 500px;   
+}  
+
+#startaproject{   
+    position: absolute;   
+    top: 50%;   
+    left:50%;
+    margin: -300px 0 0 -150px; 
+    width: 300px;   
+    height: 300px;   
+}
+
+#profile{   
+    position: absolute;   
+    top: 50%;   
+    left:50%;
+    margin: -300px 0 0 -400px; 
+    width: 300px;   
+    height: 300px;   
+}
+#creditcard{   
+    position: absolute;   
+    top: 50%;   
+    left:50%;
+    margin: -300px 0 0 100px; 
+    width: 300px;   
+    height: 300px;   
+}
+
+
+
+.but1{   
+    width: 300px;   
+    min-height: 20px;   
+    display: block;   
+    background-color: #00BFFF;   
+    border: 1px solid #3762bc;   
+    color: #fff;   
+    padding: 9px 14px;   
+    font-size: 16px;   
+    line-height: normal;   
+    border-radius: 5px;   
+    margin: 0px;   
+} 
+.but{   
+    width: 100px;   
+    min-height: 20px;   
+    display: block;   
+    background-color: #00BFFF;   
+    border: 1px solid #3762bc;   
+    color: #fff;   
+    padding: 9px 14px;   
+    font-size: 16px;   
+    line-height: normal;   
+    border-radius: 20px;   
+    margin: 5px;   
+}

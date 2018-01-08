@@ -1,0 +1,50 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>文件上传实例</title>
+ <style type="text/css">
+ body
+ {
+ font-size: 20px;
+ }
+ input
+ {
+ background-color: #66CCFF;
+ border: 1px inset #CCCCCC;
+ }
+ form
+ {
+ margin-top:5%;
+ }
+ </style>
+</head>
+<body>
+ <form method="post" action="upload.php" enctype="multipart/form-data">
+ <table border=0 cellspacing=0 cellpadding=0 align=center width="100%">
+ <tr>
+ <td width=55 height=20 align="center"></td>
+ <td height="16">
+ 
+ <table>
+ <tr>
+ <td>title:</td>
+ <td><input name="title" type="text" id="title"></td>
+ </tr>
+ <tr>
+ <td>file: </td>
+ <td><label>
+ <input name="file" type="file" value="file" >
+ <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+ </label></td>
+ </tr>
+ <tr>
+ <td></td>
+ <td><input type="submit" value="upload" name="upload"></td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+ </table>
+ </form>
+</body>
+</html>

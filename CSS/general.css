@@ -1,0 +1,149 @@
+html{   
+    width: 100%;   
+    height: 100%;     
+}   
+body{   
+    width: 100%;   
+    height: 100%;   
+    font-family: "Comic Sans MS", cursive, sans-serif;   
+    margin: 0;   
+}
+input:hover{
+    color: #00BFFF; 
+}
+a:hover{
+    color: #00BFFF; 
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.background {
+	width: 120%;   
+    height: 120%; 
+    margin: -25px;
+    background: url('gangwan.jpg');
+    background-size: 100%;  
+    position:fixed;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15x);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+.whiteboard0{
+    opacity: 0.9;
+    position: absolute;    
+    margin: 0px 0 0 0px; 
+    width: 100%;   
+    height: 60px;
+    background-color: #F8F8FF;    
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  min-width:60px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 18px;
+} 
+.menu:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.board0position1{
+    position: absolute;   
+    top: 10%;   
+    left:50%;
+    margin:5px 0 0 280px;
+}
+.search{
+	font-weight:bold;
+	color:#FFFFFF;
+	position: relative;   
+    top:20px;   
+    left:50%
+}
+.searchbutton {
+    background-color:#4CAF50;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius:20px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    padding:9px 19px;
+    text-decoration:none;
+    text-shadow:0px 0px 0px #2f6627;
+}
+.searchbutton:hover {
+    background-color:#5cbf2a;
+}
+.searchbutton:active {
+    position:relative;
+    top:1px;
+}
+.searchboard{
+    opacity: 0.9;
+    position: absolute;   
+    top: 50%;   
+    left:50%;
+    margin: -280px 0px 0 -550px; 
+    width: 1100px;   
+    height: auto; 
+    border-radius: 10px; 
+    background-color: #F8F8FF;
+}
+.tagboard{
+    opacity: 0.9;
+    position: absolute;   
+    top: 50%;   
+    left:50%;
+    margin: -280px 0px 0 -550px; 
+    width: 1100px;   
+    height: auto; 
+    border-radius: 10px; 
+    background-color: #F8F8FF;
+}
+.tagboard a {
+  min-width:60px;
+  float: left;
+  display: block;
+  color:black;;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 18px;
+} 
+.tagboard a:hover {
+color: #00BFFF; 
+} 
+.but-left{
+    max-width:230px;
+    min-width: 10px;   
+    min-height: 15px;   
+    display: block;   
+    background-color: #F8F8FF;    
+    text-align:left; 
+    font-size: 17px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #000;    
+    line-height: normal;     
+    margin: 1px; 
+    border:none;
+    outline:none    
+}
